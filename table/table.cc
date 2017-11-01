@@ -35,6 +35,7 @@ struct Table::Rep {
   Block* index_block;
 };
 
+// leveldb::Table的打开函数：
 Status Table::Open(const Options& options,
                    RandomAccessFile* file,
                    uint64_t size,

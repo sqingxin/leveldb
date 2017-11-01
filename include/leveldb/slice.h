@@ -21,6 +21,8 @@
 #include <string>
 #include "leveldb/export.h"
 
+
+// slice : 内存块的封装类
 namespace leveldb {
 
 class LEVELDB_EXPORT Slice {
